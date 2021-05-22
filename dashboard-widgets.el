@@ -59,6 +59,10 @@
 (defvar org-agenda-new-buffers "ext:org.el")
 (defvar all-the-icons-dir-icon-alist)
 (defvar package-activated-list)
+(defvar dashboard-all-the-icons-size 0.75
+  "Define dashboard header icons size."
+  )
+
 
 (defcustom dashboard-page-separator "\n\f\n"
            "Separator to use between the different pages."
